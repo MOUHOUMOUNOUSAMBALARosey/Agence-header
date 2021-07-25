@@ -1,0 +1,145 @@
+ *,::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+ header {
+   width: 100%;
+   height: 100vh;
+   background: url("https://images.unsplash.com/photo-1528932574509-27a7e195a75b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+   background-size: cover;
+   background-position: center;
+ }
+
+ h1 {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% ,50%);
+   font-size: 120px;
+   background: #fff;
+   opacity: 0;
+ }
+
+ .nav {
+   position: relative;
+   top: 4%;
+   text-align: center;
+ }
+
+ .nav ul {
+   color: #fff;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 0;
+ }
+
+ .nav li {
+   display: inline-block;
+   list-style: none;
+   font-size: 35px;
+   /* font-family: ; */
+   margin: 0 25px;
+   cursor: pointer;
+   
+ }
+
+ .items {
+  cursor: pointer;
+  margin: 0 20px;
+  flex-shrink: 0;
+  width:150px;
+  text-align: center;
+} 
+
+ .sous_liste {
+    position: relative;
+   display: none;
+ }
+
+ .item-sous-titre {
+   list-style-type: none;
+   word-break: break-word;
+   text-align: center;
+   padding: 0 10px;
+   background: #f1f1f1;
+   border-bottom: 0.5px solid rgb(167,167,167);
+ }
+
+ .item-sous-titre:hover {
+      background: rgb(156,156,156);
+ }
+
+
+ /* media sociaux */
+
+ .social {
+   color: rgb(0,0,0);
+   position: absolute;
+   left: 3%;
+   top: 20%;
+ }
+
+ .social ul {
+   padding: 0;
+   list-style: none;
+ }
+
+ .social ul li {
+   margin-bottom: 50px;
+   list-style: none;
+   border-radius: 100%;
+   background: #fff;
+   width: 50px;
+   height: 50px;
+   border: 1px dashed #000;
+ }
+
+ .social ul li i {
+   font-size: 30px;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   cursor: pointer; 
+ }
+
+ .gauche {
+   position: absolute;
+   width: 50%;
+   height: 100vh;
+   background: url();
+   top: 0;
+   left: 0;
+ }
+
+ .gauche h2{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   font-size: 90px;
+   letter-spacing: 12px;
+   background: #fff;
+  
+ }
+
+ .droite {
+  position: absolute;
+  width: 50%;
+  background: url();
+  right: 0;
+}
+
+.droite h2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 92px;
+  letter-spacing: 12px;
+  background: #fff;
+ 
+} 
+
